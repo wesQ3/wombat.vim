@@ -46,6 +46,8 @@ hi Number         guifg=#e5786d gui=none
 hi Special        guifg=#e7f6da gui=none
 
 " My new stuff starts here
+
+hi Search         guifg=#95e454 guibg=#262626 gui=reverse cterm=reverse
 hi Label          guifg=#47e0c3 gui=none
 hi StartifyPath   guifg=#95e454 gui=none
 hi pythonInclude  guifg=#8ac6f2 gui=none
@@ -57,7 +59,17 @@ hi diffLine       guifg=#8ac6f2 gui=bold
 hi diffSubname    guifg=#8ac6f2 gui=none
 
 " vimdiff
-hi DiffAdd        guifg=#95e454  guibg=#262626 gui=reverse cterm=reverse
+hi DiffAdd        guifg=#95e454 guibg=#262626 gui=reverse cterm=reverse
 hi DiffChange     guifg=#dfdfdf guibg=#262626 gui=reverse cterm=reverse
-hi DiffDelete     guifg=#e5786d  guibg=#262626 gui=reverse cterm=reverse
+hi DiffDelete     guifg=#e5786d guibg=#262626 gui=reverse cterm=reverse
 hi DiffText       guifg=#afafaf guibg=#262626 gui=reverse cterm=reverse
+
+" netrw
+hi netrwDir       guifg=#8ac6f2 gui=none
+hi netrwLink      guifg=#8ac6f2 gui=none
+hi netrwExe       guifg=#95e454 gui=none
+hi netrwSymLink   guifg=#cae682 gui=none
+
+" quickfix list
+hi qfFileName     guifg=#8ac6f2 gui=none
+hi qfLineNr       guifg=#cae682 gui=none

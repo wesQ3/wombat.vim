@@ -1,5 +1,7 @@
 A modified wombat.vim colorscheme. It's dark and green.
 
+Now includes custom colors for vimdiff, fugitive, quickfix, netrw and more.
+
 Originally from http://dengmao.wordpress.com/2007/01/22/vim-color-scheme-wombat/
 Original author:           Lars H. Nielsen (dengmao@gmail.com)
 Last change before fork:   January 22 2007
