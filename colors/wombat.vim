@@ -47,7 +47,8 @@ hi Special        guifg=#e7f6da gui=none
 
 " My new stuff starts here
 
-hi Search         guifg=#95e454 guibg=#262626 gui=reverse cterm=reverse
+hi Search         guifg=#cae682 guibg=#262626 gui=reverse cterm=reverse
+hi Todo           guifg=#cae682 guibg=#262626 gui=reverse cterm=reverse
 hi Label          guifg=#47e0c3 gui=none
 hi StartifyPath   guifg=#95e454 gui=none
 hi pythonInclude  guifg=#8ac6f2 gui=none
