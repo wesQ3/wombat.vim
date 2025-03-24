@@ -59,6 +59,11 @@ hi diffRemoved    guifg=#e5786d gui=none
 hi diffLine       guifg=#8ac6f2 gui=bold
 hi diffSubname    guifg=#8ac6f2 gui=none
 
+hi gitCommitHeader       guifg=#e5786d  gui=none
+hi gitCommitSelectedType guifg=#8ac6f2  gui=none
+hi gitCommitSelectedFile guifg=#cae682  gui=none
+hi gitCommitUntrackedFile guifg=#cae682  gui=none
+
 " vimdiff
 hi DiffAdd        guifg=#95e454 guibg=#262626 gui=reverse cterm=reverse
 hi DiffChange     guifg=#dfdfdf guibg=#262626 gui=reverse cterm=reverse
