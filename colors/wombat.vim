@@ -52,6 +52,7 @@ hi Todo           guifg=#cae682 guibg=#262626 gui=reverse cterm=reverse
 hi Label          guifg=#47e0c3 gui=none
 hi StartifyPath   guifg=#95e454 gui=none
 hi pythonInclude  guifg=#8ac6f2 gui=none
+hi Sneak          guifg=#262626 guibg=#e5786d
 
 " fugitive
 hi diffAdded      guifg=#95e454 gui=none
@@ -79,3 +80,8 @@ hi netrwSymLink   guifg=#cae682 gui=none
 " quickfix list
 hi qfFileName     guifg=#8ac6f2 gui=none
 hi qfLineNr       guifg=#cae682 gui=none
+
+" man pages
+hi manSectionHeading   guifg=#8ac6f2 gui=none
+hi manOptionDesc       guifg=#cae682 gui=none
+hi manReference        guifg=#e5786d gui=none
